@@ -1,6 +1,4 @@
-//your JS code here. If required.
-document.addEventListener("DOMContentLoaded", function() {
-            var message = document.createElement("p");
-            message.textContent = "DOM load success";
-            document.body.appendChild(message);
-        });
+const app = require("./index.js");
+app.listen(3000, () => {
+  console.log('server started');
+});
